@@ -39,22 +39,28 @@ For this project, we will be analyzing SeoulBikeData data. The contents of the d
 from a city called Seoul. A bike-sharing system is a service in which bikes are made available for 
 shared use to individuals on a short-term basis for a price or free. 
 
-We first decided to analyze and transform data for data analysis. We
-did EDA on dataset and then we decided perform experiment on ML algorithms and gate results from it,
-then we decided which model is best for dataset from 
-results.
+First we get data from source and then transform data for data analysis. We
+did EDA on dataset and then we decided to build a different model and gate results from it,
+then we decided which model is best for dataset from results.
 
 # Conclusion:
 
-● Hour of the day holds most importance among all the features for prediction of dataset
+● Hour of the day holds most importance among all the features for prediction of dataset.
+
 ● It is observed that highest number bike rentals count in Summer and Autumn Seasons and the 
 lowest in Spring season.
+
 ● We observed that the highest number of bike rentals on a clear day and the lowest on a snowy 
-or rainy day 
+or rainy day.
+
 ● The top 5 important features of our dataset are: Season_winter, Temperature, Hour, 
-Season_autumn, Humidity 
-● Peoples don’t use rented bikes in no functioning day 
-● People tend to rent bikes when the temperature is between -5 to 25 degrees 
-● People tend to rent bikes when the visibility is between 300 to 1700 
-● For all the above experiments we can conclude that gradient boosting and random forest 
+Season_autumn, Humidity.
+
+● Peoples don’t use rented bikes in no functioning day.
+
+● People tend to rent bikes when the temperature is between -5 to 25 degrees.
+
+● People tend to rent bikes when the visibility is between 300 to 1700 .
+
+● For all the above experiments we can conclude that gradient boosting and random forest
 regressor with using hyperparameters we got the best results.
